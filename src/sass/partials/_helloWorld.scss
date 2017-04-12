@@ -1,0 +1,29 @@
+.helloWorld {
+    &__msg {
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    &__progress {
+        display: inline-block;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    &__btn {
+        background: #eaeaea;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        color: #000;
+        font-size: 14px;
+        margin: 0 10px;
+        padding: 10px;
+        transition: .3s background-color ease-out;
+        width: 150px;
+
+        &:hover {
+            background: #ccc;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "compileOnSave" : true,
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "jsx": "react",
+        "target": "es5",
+        "module": "es2015",
+        "moduleResolution": "node"
+    }
+}
