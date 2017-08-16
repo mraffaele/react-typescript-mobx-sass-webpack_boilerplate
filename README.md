@@ -1,6 +1,6 @@
 # React TypeScript MobX Webpack SASS Boilerplate
 
-Simple boilerplate using [React](https://github.com/facebook/react), [MobX](https://github.com/mobxjs/mobx), [Typescript](https://github.com/Microsoft/TypeScript) & [SASS](https://github.com/sass/sass)+[PostCSS](https://github.com/postcss/postcss). Bundled with [Webpack 2](https://github.com/webpack).
+Simple boilerplate using [React](https://github.com/facebook/react), [MobX](https://github.com/mobxjs/mobx), [Typescript](https://github.com/Microsoft/TypeScript) & [SASS](https://github.com/sass/sass)+[PostCSS](https://github.com/postcss/postcss). Bundled with [Webpack 3](https://github.com/webpack).
 
 ### Getting Started:
 * `npm install` then 
