@@ -1,3 +1,3 @@
 export interface Message {
-    text: string;
+  text: string;
 }

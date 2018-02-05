@@ -117,9 +117,10 @@ a {
  */
 
 a {
-  &:active, &:hover {
+  &:active,
+  &:hover {
     outline: 0;
-  };
+  }
 }
 
 /* Text-level semantics
@@ -203,7 +204,6 @@ mark {
 }
 
 @if $legacy_browser_support {
-
   /**
    * Addresses margins set differently in IE 6/7.
    */
@@ -227,7 +227,7 @@ mark {
 
   q:before,
   q:after {
-    content: '';
+    content: "";
     content: none;
   }
 }
@@ -261,7 +261,6 @@ sub {
 }
 
 @if $legacy_browser_support {
-
   /* ==========================================================================
      Lists
      ========================================================================== */
@@ -300,7 +299,6 @@ sub {
     *list-style: none;
     *list-style-image: none;
   }
-
 }
 
 /* Embedded content
@@ -365,7 +363,7 @@ pre,
 samp {
   font-family: monospace, monospace;
   @if $legacy_browser_support {
-    _font-family: 'courier new', monospace;
+    _font-family: "courier new", monospace;
   }
   font-size: 1em;
 }
@@ -437,7 +435,7 @@ input[type="submit"] {
   -webkit-appearance: button; /* 2 */
   cursor: pointer; /* 3 */
   @if $legacy_browser_support {
-    *overflow: visible;  /* 4 */
+    *overflow: visible; /* 4 */
   }
 }
 
